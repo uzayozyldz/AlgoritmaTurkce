@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Carpim {
+    public static void main(String[] args) {
+      
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("İlk sayıyı girin: ");
+        double sayi1 = scanner.nextDouble();
+
+        System.out.print("İkinci sayıyı girin: ");
+        double sayi2 = scanner.nextDouble();
+
+       
+        double carpim = sayi1 * sayi2;
+
+    
+        System.out.println("Çarpım: " + carpim);
+
+      
+        scanner.close();
+    }
+}
